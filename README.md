@@ -14,6 +14,20 @@ Il est conçu pour les cours de **BTS SIO SLAM** et toute formation en **concept
 ## Sauvegarde
 Enregistre tes fichiers dans le dossier `models/` — ils seront versionnés par Git.
 
+## Comment mettre à jour son dépôt Github distant depuis son PC local
+Travaux pratiques
+- Téléchargement d'un client GIT pour Windows en local : Git Bash ( aussi appelé "GIT for Windows" )
+- Récupération de l'URL du dépôt distant via Github Codespace 
+- Choisir un répertoire local qui stockera le clone du répertoire distant
+- Clic droit + "Autres options"
+- Clic droit dans ce répertoire + "Open GIT Bash here"
+- git clone <URL_DEPOT_GITHUB>
+- git add .       
+    ( pour prendre en compte des modifications effectuées dans le répertoire local)
+- git commit -m "MESSAGE_INDIQUANT_CE_QUI_A_ETE_MODIFIé_DANS_REPERTOIRE_LOCAL"
+- git push 
+   (pour mettre à jour le répertoire (dépôt GITHUB) distant
+
 ## Outils intégrés
 - **Looping.exe** (via Wine)
 - **LXDE Desktop**
@@ -41,6 +55,9 @@ Certains produits sont proposés par plusieurs fournisseurs.
 Chaque fournisseur peut livrer plusieurs produits.  
 Enfin, un client peut recommander un autre client lors de son inscription.
 
+- Les élèves ont identifié les 5 entités : Client , Commande , Produit , Catégorie et Fournisseur .
+- Un identifiant unque a été défini pour chaque entité
+- Les attributs de l'entité Produit ont été définis (avec l'outil looping) : libelle , quantité , prix (avec le type adéquat : texte, entier , réel
 ---
 
 ## Travail demandé
