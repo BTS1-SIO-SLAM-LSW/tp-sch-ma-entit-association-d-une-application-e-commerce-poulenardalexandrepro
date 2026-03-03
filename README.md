@@ -58,6 +58,12 @@ Enfin, un client peut recommander un autre client lors de son inscription.
 - Les élèves ont identifié les 5 entités : Client , Commande , Produit , Catégorie et Fournisseur .
 - Un identifiant unque a été défini pour chaque entité
 - Les attributs de l'entité Produit ont été définis (avec l'outil looping) : libelle , quantité , prix (avec le type adéquat : texte, entier , réel
+
+Chaque produit appartient à une seule catégorie de produit
+Chaque fournisseur appartient à une seule catégorie de fournisseur
+Une commande peut avoir une facture
+Un client peut avoir une carte de fidélité
+
 ---
 
 ## Travail demandé
